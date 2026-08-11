@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular11File-manager';
-  public hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+  public hostUrl: string = 'https://physical-service.syncfusion.com/';
   public ajaxSettings: object = {
 url: this.hostUrl + 'api/FileManager/FileOperations'
   };
